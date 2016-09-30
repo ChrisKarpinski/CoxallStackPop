@@ -18,12 +18,13 @@ public class MainClass {
 		
 		String stackString;
 		String returnedString;
+		for (;;) {
 		System.out.println("Enter the string");
 		stackString = read.next();
 		
 		aStack.push(stackString);
 		System.out.println("The top string was: " + aStack.pop());
-		
+		}
 	}
 
 }
